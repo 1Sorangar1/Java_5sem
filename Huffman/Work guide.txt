@@ -1,0 +1,17 @@
+Сборка приложения
+
+Требования:
+Java Development Kit (JDK) версии 8 или выше.
+
+Шаги сборки:
+-Клонировать код из репозитория
+  git clone https://github.com/1Sorangar1/Java_5sem
+- Перейти в каталог проекта src
+- Копмилировать код
+  javac HuffmanApp.java
+
+Доступные команды: encode|info|decode.
+Указания к применению команд:
+encode (кодировние): java HuffmanApp encode <inputFile_path> 
+info (информация о закодированном файле): java HuffmanApp info <inputFile_path>
+decode (декодирование): java HuffmanApp decode <inputFile_path>
